@@ -1,0 +1,24 @@
+footer{
+    .footer__navigation{
+        padding: 17px 0 0;
+        border-bottom: 1px solid rgb(213, 213, 213);
+    }
+    .logo{
+        margin-left: 15px;
+    }
+    p{
+        font-size: 16px;
+        line-height: 18px;
+        margin: 0;
+    }
+    .rights{padding: 12px 0;
+        p{
+        font-family: 'Arial';
+        color:  #787878;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 18px;
+        text-align: center;
+        }
+    }
+}

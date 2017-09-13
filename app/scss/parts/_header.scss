@@ -1,0 +1,87 @@
+header{
+    background-color:  #fff;
+    .container{
+        padding-top: 17px;
+        max-width: 1020px;
+    }
+}
+.logo{font-family: 'League Gothic';
+      font-weight: normal;
+      font-style: italic;
+      font-size: 32px;
+      font-weight: 400;
+      line-height: 32px;
+      text-transform: uppercase;
+    p{color:  #076e9f;
+       }
+    span{
+        color:  #22aaec;
+    }
+}
+.social{
+    display: none;
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+    .sprite{
+         display: inline-block;
+         background: url('../assets/img/social.png') no-repeat; 
+         overflow: hidden; 
+         text-indent: -9999px; 
+         text-align: left;
+        margin-left: 7px;
+    }
+    .facebook { background-position: -10px -0px; width: 16px; height: 16px; }
+    .delicious { background-position: -10px -26px; width: 16px; height: 16px; }
+    .linked-in { background-position: -10px -52px; width: 16px; height: 16px; }
+    .pinterest { background-position: -10px -78px; width: 16px; height: 16px; }
+    .twitter-bird { background-position: -10px -104px; width: 16px; height: 14px; }
+    .evernote { background-position: -10px -128px; width: 14px; height: 17px; }
+}
+nav .list{
+    padding: 0;
+} li{
+    display: inline;
+    a{ font-family: 'Arial';
+    color:  #707070;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+        text-transform: uppercase;
+    padding: 2px 9px;
+    margin: 0 7px;
+        transition: .2s;
+        &:hover{
+            border-style: solid;
+            border-width: 1px;
+            border-color:  #045279;
+            background-color:  #076e9f;
+            text-decoration: none;
+            border-radius: 3px;
+            color:#ffffff;
+        }
+    }
+   
+}
+
+    
+ 
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+    .social{
+        display: inline-block;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {}
+

@@ -1,0 +1,26 @@
+/*Global________________*/
+* {
+    box-sizing: border-box; 
+    outline: none;
+    margin: 0;
+}
+html {
+    font-size:62.5%;
+    
+}
+body{
+  margin: 0;
+    padding: 0;
+    
+}
+.container{
+    max-width: 1020px;
+}
+@import "font.scss";
+/*header________________*/
+@import 'parts/header.scss';
+@import 'parts/main.scss';
+
+
+/*footer________________*/
+@import 'parts/footer.scss';
